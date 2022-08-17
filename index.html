@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <thead>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,11 +9,50 @@
 
     </style>
     </thead>
-    <tbody>   
-                     
-    
+    <tbody>        
+        <table width="970" border="2px" celispacing="0" cellpadding="0">
+            <tr>
+                <td width="150" align="center" height="40">Tabela</td>
+                <td width="820" align="center">Veículo</td>
+            </tr>
+            <tr>
+                <td width="150" align="center" height="40">Descrição</td>
+                <td width="820" align="center">Armazenará as informações dos veículos</td>
+            </tr>
+            <tr>
+                <td width="150" align="center" height="40">Observações</td>
+                <td width="820" align="center">Essa tabela possui uma chave estrangeira da tabela Marca</td>
+            </tr>
+            <tr>
+            <th colspan="5">Campos</th>
+        </tr>
+        <tr>
+            <th width="150" align="center">Nome</th><th width="275" align="center">Descrição</th>
+            <th width="150" align="center">Tipo de dados</th><th width="120" align="center">Tamanho</th>
+            <th width="275">Restrições de dominio (PK,FK,
+                Not Null, Check, Defaut, identity)
+            </th>
+        </tr>
+        <tr>
+            <td width="150" align="center">Código</td><td width="275" align="center">Código de identificação da tabela</td>
+            <td width="150" align="center">int</td><td width="120" align="center"></td><td width="275" align="center">PK/Identity</td>
+        </tr>
+        <tr>
+            <td width="150" align="center">placa</td><td width="275" align="center">Placa do ónibus</td>
+            <td width="150" align="center">Varchar</td><td width="120" align="center">20</td><td width="275" align="center">Unique / Not Null</td>
+        </tr>
+        <tr>
+            <td width="150" align="center">Anoveiculo</td><td width="275" align="center">Ano de fabricação do ónibus</td>
+            <td width="150" align="center">int</td><td width="120" align="center"></td><td width="275" align="center">Not Null</td>
+        </tr>
+        <tr>
+            <td width="150" align="center">Anocompra</td><td width="275" align="center">Ano de compra do veículo</td>
+            <td width="150" align="center">int</td><td width="120" align="center"></td><td width="275" align="center">Not Null</td>
+        </tr>
 
-         
+        </table>      
+                            
+            
     
 </tbody>
 </html>
