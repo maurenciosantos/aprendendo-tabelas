@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo Tabelas</title>
     <style type="texto/css">
+        th{
+            
+        }
 
     </style>
     </thead>
     <tbody>        
         <table width="970" border="2px" celispacing="0" cellpadding="0">
             <tr>
-                <td width="150" align="center" height="40">Tabela</td>
-                <td width="820" align="center">Veículo</td>
+                <th width="150" align="center" height="40">Tabela</th>
+                <td colspan="4" width="820" align="center">Veículo</td>
             </tr>
             <tr>
-                <td width="150" align="center" height="40">Descrição</td>
-                <td width="820" align="center">Armazenará as informações dos veículos</td>
+                <th width="150" align="center" height="40">Descrição</th>
+                <td colspan="4" width="820" align="center">Armazenará as informações dos veículos</td>
             </tr>
             <tr>
-                <td width="150" align="center" height="40">Observações</td>
-                <td width="820" align="center">Essa tabela possui uma chave estrangeira da tabela Marca</td>
+                <th width="150" align="center" height="40">Observações</th>
+                <td colspan="4" width="820" align="center">Essa tabela possui uma chave estrangeira da tabela Marca</td>
             </tr>
             <tr>
             <th colspan="5">Campos</th>
@@ -34,19 +37,19 @@
             </th>
         </tr>
         <tr>
-            <td width="150" align="center">Código</td><td width="275" align="center">Código de identificação da tabela</td>
+            <th width="150" align="center">Código</th><td width="275" align="center">Código de identificação da tabela</td>
             <td width="150" align="center">int</td><td width="120" align="center"></td><td width="275" align="center">PK/Identity</td>
         </tr>
         <tr>
-            <td width="150" align="center">placa</td><td width="275" align="center">Placa do ónibus</td>
+            <th width="150" align="center">placa</th><td width="275" align="center">Placa do ónibus</td>
             <td width="150" align="center">Varchar</td><td width="120" align="center">20</td><td width="275" align="center">Unique / Not Null</td>
         </tr>
         <tr>
-            <td width="150" align="center">Anoveiculo</td><td width="275" align="center">Ano de fabricação do ónibus</td>
+            <th width="150" align="center">Anoveiculo</th><td width="275" align="center">Ano de fabricação do ónibus</td>
             <td width="150" align="center">int</td><td width="120" align="center"></td><td width="275" align="center">Not Null</td>
         </tr>
         <tr>
-            <td width="150" align="center">Anocompra</td><td width="275" align="center">Ano de compra do veículo</td>
+            <th width="150" align="center">Anocompra</th><td width="275" align="center">Ano de compra do veículo</td>
             <td width="150" align="center">int</td><td width="120" align="center"></td><td width="275" align="center">Not Null</td>
         </tr>
 
