@@ -4,5 +4,8 @@
 }
 
 tbody {
-     background-color: #f0f800;
+     background-color: #a9a9a9;
+}
+th{
+    background-color: blue;
 }
